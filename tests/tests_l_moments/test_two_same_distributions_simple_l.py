@@ -48,7 +48,7 @@ def idfunc(vals):
         (
             Factory(WeibullModelExp),
             [(0.5, 0.5), (2.0, 1.0)],
-            [(0.5, 0.5), (1.0, 2.0)],
+            [(0.1, 1.0), (1.0, 2.0)],
             500,
             0.01,
             0.2,
@@ -64,10 +64,10 @@ def idfunc(vals):
         (
             Factory(GaussianModel),
             [(4.0, 5.0), (3.0, 2.0)],
-            [(3.0, 5.0), (3.5, 1.0)],
+            [(3.0, 5.0), (3.5, 3.0)],
             500,
             0.01,
-            0.6,
+            0.41,
         ),
         (
             Factory(ExponentialModel),
@@ -75,7 +75,7 @@ def idfunc(vals):
             [(0.5,), (1.5,)],
             500,
             0.01,
-            0.2,
+            0.1,
         ),
         (
             Factory(ExponentialModel),
